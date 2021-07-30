@@ -12,7 +12,7 @@ body{
 .container{
     background: rgba(0, 0, 0, 0.29);
     width: 444px;
-    height: 524px;
+    height: 504px;
     margin: 40px auto; 
     border-radius: 10px;
     box-sizing: border-box;
@@ -50,13 +50,13 @@ body{
     margin-right: 26px;
 }
 .buttons{
-    margin-top: 50px;
+    margin-top: 40px;
 }
 .buttons button{
     color: white;
     width: 270px;
     height: 50px;
-    margin-top: 15px;
+    margin-top: 10px;
     border-radius: 10px;
     border: 0px;
     font-family: Roboto;
