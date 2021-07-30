@@ -13,7 +13,7 @@ body{
     background: rgba(0, 0, 0, 0.29);
     width: 444px;
     height: 524px;
-    margin: 0 auto; 
+    margin: 40px auto; 
     border-radius: 10px;
     box-sizing: border-box;
     padding: 20px 50px 40px;
@@ -80,7 +80,8 @@ body{
     width: 100%;
     height: 140px;
     background: rgba(0, 0, 0, 0.29);
-    margin-top: 203px;
+    position:absolute;
+    bottom:0;
 }
 
 .rodape-text{
