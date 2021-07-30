@@ -96,3 +96,11 @@ body{
     padding-left: 120px;
     padding-top: 10px;
 }
+a{
+    text-decoration: none; 
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+  }
