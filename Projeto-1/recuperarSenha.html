@@ -15,8 +15,14 @@
         <div class="container">
             <h1>Recuperar Senha</h1>
             <input type="email" placeholder="  E-mail">
-            <button class="btnEnviarEmail">ENVIAR E-MAIL</button>
+            <button onclick="abrirPopUp('http://127.0.0.1:5500/pop-up.html')" class="btnEnviarEmail">ENVIAR E-MAIL</button>
             <a href="index.html">Voltar</a>
+            
+            <div id="popup" class="popup">
+                <p>Enviamos um e-mail de recuperação de senha pra você. Cheque seu e-mail.</p>	
+                <button onclick="abrir('http://127.0.0.1:5500/index.html')" class="btnretornarAoLogin">RETORNAR AO LOGIN</button>		
+            </div>
+            
         </div>
 
         <footer>
@@ -28,5 +34,6 @@
             </div>
             
         </footer>
+        <script type="text/javascript" src="js/pop-up.js"></script>
     </body>
 </html>
